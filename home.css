@@ -1,0 +1,159 @@
+body {
+    /* background-color: rgb(22, 6, 28); */
+    color: grey;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+#copyright {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+/* .buttons {
+    max-width: 100%;
+} */
+
+.links {
+    display: block;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    background-color: grey;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: baseline;
+
+}
+.heading {
+    display: inline-block;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    margin-left: 900px;
+    margin-top: 10px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: grey;
+    padding: 0;
+}
+
+.main-content {
+    background-image: url(logos/Free_Sample_By_Wix\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.Welcome{
+    width: 500px;
+    display: inline-block;
+}
+.welcome-image {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+#login {
+    height: 50px;
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size:medium;
+    border-color: black;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    color: whitesmoke;
+    background-color: grey;
+    border-radius: 10px;
+}
+#signup {
+    height: 50px;
+    display: inline;
+    margin-right: 20px;
+    font-weight:bold;
+    font-size: medium;
+    border: none;
+    background-color: rgba(16, 3, 32, 0.89);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(22, 6, 28);
+    color: whitesmoke;
+}
+
+button:hover {
+    color: black;
+    background-color: slateblue;
+    cursor: pointer;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 23px;
+    display: inline-block;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .buttons {
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
